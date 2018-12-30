@@ -1,0 +1,114 @@
+
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+ 
+}
+
+.demo {
+  margin: 0 auto;
+  padding-top: 64px;
+  max-width: 640px;
+  width: 94%;
+}
+
+.demo h1 {
+  margin-top: 0;
+}
+
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: rgba(255,255,255,0.8);
+  text-align: center;
+  height : 120px;
+}
+
+.footer .bordure_footer {
+
+	background-color: rgba(000,000,000,0.4);
+	height : 12%;
+	position: absolute;
+	text-align : center;
+  right: 0;
+  top : 0%;
+  left: 0;
+}
+
+
+.footer p {
+	font-size : 14px;
+	 position: absolute;
+  right: 0;
+  bottom: 0%;
+  left: 0;
+}
+
+ .hautdepage {
+		position : absolute;
+		left : 89%;
+		bottom : 60%;
+		color : black;
+}
+
+.hautdepage:hover {
+	color : #1AA1B4;
+	
+}
+.facebook_bas {
+	height : 40px;
+	width : 40px;
+	float : left;
+	margin-left : 5px;
+		margin-top : 10px;
+}
+.twitter_bas {
+	height : 40px;
+	width : 40px;
+	float:left;
+	margin-left : 5px;
+	margin-top : 10px;
+}
+.logos {
+	float : left;
+	
+}
+.twitter_bas:hover, .facebook_bas:hover {
+	 -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+.rejoignez_twitter {
+	float:left;
+	margin-top : 20px;
+}
+.rejoignez_facebook {
+	float:left;
+	margin-top : 20px;
+}
+
+
+
+
+
+

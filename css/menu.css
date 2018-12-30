@@ -1,0 +1,153 @@
+html {
+
+        top: 0; bottom: 0; left: 0; right: 0;
+        height: 100%;
+    margin:0;
+    padding:0;
+    background-size: 100% ;
+	height : auto;
+    color:black;
+}
+html:before {
+        content: "";
+        position: fixed;
+        height: 100%; width: 100%;
+        background-size: cover;
+        z-index: -1; /* Keep the background behind the content */     
+        -webkit-filter: blur(2px);
+    -webkit-background-size: cover; /* pour Chrome et Safari */
+    -moz-background-size: cover; /* pour Firefox */
+    -o-background-size: cover; /* pour Opera */
+    background-size: cover; /* version standardisée */
+    }
+
+/*CSS de la toolbar en haut ˆ droite */
+
+/* CSS du menu */
+
+#menu, #menu ul /* Liste */     
+{
+        padding : 0; /* pas de marge intŽrieure */
+        margin : 0; /* ni extŽrieure */
+        list-style : none; /* on supprime le style par dŽfaut de la liste */
+        line-height : 27px; /* on dŽfinit une hauteur pour chaque ŽlŽment */
+        text-align : center; /* on centre le texte qui se trouve dans la liste */
+        font-size: 13PX;
+}
+
+#menu /* Ensemble du menu */
+{
+        font-weight : bold; /* on met le texte en gras */
+        font-family : Arial; /* on utilise Arial, c'est plus beau ^^ */
+        font-size : 15px; /* hauteur du texte : 12 pixels */
+		float:left;
+}
+
+#menu a /* Contenu des listes */
+{
+        display : block; /* on change le type d'ŽlŽment, les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intŽrieure */
+        background : #1ba1b3; /* couleur de fond */        
+        color : #fff; /* couleur du texte */
+        text-decoration : none; /* on supprime le style par dŽfaut des liens (la plupart du temps = soulignŽ) */
+        width : 174px; /* largeur */
+        transition: all 200ms ease-out;
+        height : 35px;
+        padding-top : 5px;
+}
+
+#menu li /* Elements des listes */      
+{ 
+        float : left; 
+        /* pour IE qui ne reconna”t pas "transparent" */
+        border-right : 1px solid #fff; /* on met une bordure blanche ˆ droite de chaque ŽlŽment */
+        font-size : 130%;
+}
+
+/* IE ne reconnaissant pas le sŽlecteur ">" */
+html>body #menu li
+{
+        border-right: 1px solid transparent ; /* on met une bordure transparente ˆ droite de chaque ŽlŽment */
+}
+
+#menu li ul /* Sous-listes */
+{ 
+        position: absolute; /* Position absolue */
+        width: 144px; /* Largeur des sous-listes */
+        left: -999em; /* Hop, on envoie loin du champ de vision */
+}
+
+
+#menu li ul li /* ƒlŽments de sous-listes */
+{
+        /* pour IE qui ne reconna”t pas "transparent" (comme prŽcŽdemment) */
+        border-top : 1px solid #fff; /* on met une bordure blanche en haut de chaque ŽlŽment d'une sous liste */
+}
+
+/* IE ne reconnaissant pas le sŽlecteur ">" */
+html>body #menu li ul li                
+{
+        border-top : 1px solid transparent; /* on met une bordure transparente en haut de chaque ŽlŽment */
+}
+
+#menu li ul ul 
+{
+        margin    : -22px 0 0 144px ; /* On dŽcale les sous-sous-listes pour qu'elles ne soient pas au dessus des sous-listes */ 
+        /* pour IE qui ne reconna”t pas "transparent" (comme prŽcŽdemment) */
+        border-left     : 1px solid #fff ; /* Petite bordure ˆ gauche pour ne pas coller ... */   
+           font-size : 120%;
+}
+
+/* IE ne reconnaissant pas le sŽlecteur ">" ... je me rŽpte ;-) */
+html>body #menu li ul ul                
+{
+        border-left     : 1px solid transparent ; /* on met une bordure transparente sur la gauche de chaque ŽlŽment */
+}
+
+#menu a:hover /* Lorsque la souris passe sur un des liens */    
+{
+        color: #000; /* On passe le texte en noir... */
+        background: #fff; /* ... et au contraire, le fond en blanc */
+		border-top : 2px solid;
+		border-color : #f1f1f1;
+		font-size : 120%;
+}
+
+#menu li:hover ul ul, #menu li.sfhover ul ul /* Sous-sous-listes lorsque la souris passe sur un ŽlŽment de liste */
+{
+        left: -999em; /* On expŽdie les sous-sous-listes hors du champ de vision */
+}
+
+#menu li:hover ul, #menu li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul  /* Sous-listes lorsque la souris passe sur un ŽlŽment de liste ET sous-sous-lites lorsque la souris passe sur un ŽlŽment de sous-liste */
+{
+        left: auto; /* Repositionnement normal */
+        min-height: 0; /* Corrige un bug sous IE */
+}
+
+
+
+
+.titrePage {
+
+	left : 670px;
+	top : 10px;
+	font-family: 'Source Sans Pro',sans-serif;
+	
+	font-size : 32px;
+	border-right : 1px solid;
+	padding-right : 340px;
+	border-right-color : #1ba1b3;
+}
+.sous_header {
+	width : 1400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sous_menu {
+	width : 1400px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+

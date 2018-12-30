@@ -1,0 +1,109 @@
+.titre1 {
+    margin-top: 12px;
+    margin-right: 10px;
+    background: rgba(0,74,90,0.7);
+    font-family: inherit;
+    font-size: 120%;
+    font-weight: bold;
+    border: 1px solid #a3b0bf;
+    text-align: left;
+    color: white;
+    padding: 0.2em 0.4em;
+}
+.titre2 {
+    margin-top: 70px;
+    margin-right: 10px;
+    background: rgba(0,74,90,0.7);
+    font-family: inherit;
+    font-size: 120%;
+    font-weight: bold;
+    border: 1px solid #a3b0bf;
+    text-align: left;
+    color: white;
+    padding: 0.2em 0.4em;
+}
+
+.titre_droit {
+
+	margin-top: 22px;
+	margin-right : 10px;
+font-family: inherit;
+font-size: 150%;
+font-weight: bold;
+color: #004050;
+padding: 0.2em 0.4em;
+margin-left : 10px;
+margin-bottom : 15px;
+border-bottom : 1px solid;
+}
+.titre_droit3 {
+
+	margin-top: 60px;
+	margin-right : 10px;
+font-family: inherit;
+font-size: 150%;
+font-weight: bold;
+color: #004050;
+padding: 0.2em 0.4em;
+margin-left : 10px;
+margin-bottom : 15px;
+border-bottom : 1px solid;
+}
+.zone_texte_gauche {
+	padding-left : 15px;
+	padding-right : 15px;
+	background : rgb(245,245,245);
+	padding-top : 2px;
+	padding-bottom : 2px;
+	margin-top : 10px;
+	font-size : 20px;
+	margin-right : 10px;
+	margin-left : 10px;
+	border : 1px solid black;
+}
+#activer a{
+	text-decoration : none;
+	width : auto;
+	background: rgba(0,74,90,0.7);
+	color : white;
+	padding : 10px;
+	margin-left : 100px;
+	float : left;
+	margin-top : 10px;
+	transition: all 300ms ease-out;
+}
+#desactiver a{
+	text-decoration : none;
+	width : auto;
+	background: rgba(0,74,90,0.7);
+	color : white;
+	padding : 10px;
+	margin-left : 50px;
+	float : left;
+	margin-top : 10px;
+	transition: all 300ms ease-out;
+}
+#desactiver a:hover, #activer a:hover {
+background : #003545;
+transition: all 200ms ease-out;
+}
+#desactiver a:focus, #activer a:focus {
+background:rgb(57,248,48);
+color:rgb(70,70,70);}
+}
+#etat_du_capteur {
+	float : left;
+	color: #004050;
+	padding-top : 10px;
+	margin-left : 50px;
+	border-bottom : 1px solid #004050;
+}
+.li {
+		padding-left : 22px;
+	padding-right : 22px;
+	background: rgb(230,230,230);
+	margin-bottom : 10px;
+	margin-right : 10px;
+	margin-left : 10px;
+	color: #004050;
+}

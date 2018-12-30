@@ -1,0 +1,267 @@
+body {
+	font-family: sans-serif;
+}
+.div_temperature {
+	float : left;
+	width : 380px;
+	height : 260px;
+	margin-top : 30px;
+	margin-left : 30px;
+	margin-bottom : 30px;
+}
+.div_humidite {
+	float : right;
+	width : 380px;
+	height : 260px;
+	margin-top : 30px;
+	margin-right : 30px;
+	margin-bottom : 30px;
+}
+.titre_div_humidite {
+	background: rgba(0,74,90,0.7);
+	font-family: inherit;
+	font-size: 110%;
+	font-weight: bold;
+	border: 1px solid #a3b0bf;
+	text-align: center;
+	height : 40px;
+	color : white;
+	
+}
+.titre_div_temperature {
+	background: rgba(0,74,90,0.7);
+	font-family: inherit;
+	font-size: 110%;
+	font-weight: bold;
+	border: 1px solid #a3b0bf;
+	text-align: center;
+	height : 40px;
+	color : white;
+	
+}
+.phrase_indice {
+	color : #1ba1b3;
+	margin-bottom : 10px;
+	float : left;
+	padding-bottom : 20px;
+	margin-right : 15px;
+	margin-left : 15px;
+	padding-left : 10px;
+	padding-right : 10px;
+}
+.indice {
+	color : red;
+	float : left;
+	margin-top : 10px;
+	border-top : 1px solid rgb(0,74,90);
+	padding-left : 10px;
+	padding-right : 10px;
+	padding-top : 10px;
+	margin-right : 15px;
+	margin-left : 15px;
+}
+.icones_systeme {
+	width:20px;
+	height:30px;
+	margin-top:5px;
+	float:left;
+	margin-left:100px;
+}
+.icones_systeme_thermo {
+	width:20px;
+	height:30px;
+	margin-top:5px;
+	float:left;
+	margin-left:112px;
+}
+.dessous_div_gauche {
+	float : left;
+	width : 250px;
+	height : auto;
+	background: white;
+	color: color:rgb(0,74,90);
+	border: 1px solid rgb(70,70,70);
+	margin-right : 10px;
+	margin-left : 80px;
+	padding-bottom : 10px
+}
+.dessous_div_droite {
+	float : right;
+	width : 270px;
+	height : auto;
+	padding-bottom : 10px;
+	background : white;
+color: color:rgb(0,74,90);
+border: 1px solid rgb(70,70,70);
+margin-right : 90px;
+}
+.a {
+	
+	padding-top : 8px;
+	padding-left : 5px;
+	font-size : 120%;
+	text-decoration : underline;
+	padding-top : 3px;
+	padding-bottom : 3px;
+}
+.a1 {
+	padding-top : 8px;
+}
+.b, .c, .d {
+	padding-left : 5px;
+}
+.actuellement {
+	text-align : center;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	background : #ececec;
+	font-size : 130%;
+}
+#span_complet, #span_leger, #span_query {
+	font-family:sans-serif;
+	color: rgb(0,74,90);
+}
+
+.lien {
+
+	font-weight: bold;
+}
+.lien1 {
+	padding-top : 8px;
+	padding-bottom : 3px;
+	font-size : 120%;
+	text-decoration : underline;
+	font-weight: bold;
+	padding-left:5px;
+}
+.activation {
+	font-family: sans-serif;
+	font-size : 160%;
+	color: rgb(0,74,90);
+	width : 305px;
+	margin-left : 20px;
+	margin-top: 1em;
+	border-bottom: 1px solid rgb(0,74,90);
+}
+
+.activation2 {
+	font-family: sans-serif;
+	font-size : 160%;
+	color:rgb(0,74,90);
+	width : 220px;
+	margin-left : 20px;
+	margin-bottom: 10px;;
+	margin-top: 1em;
+	border-bottom: 1px solid rgb(0,74,90);
+	
+}
+.arrosage_complet {
+	float : left;
+	width : 200px;
+	height : 93px;
+	background : white;
+color: #000;
+margin-bottom  : 10px;
+margin-left : 230px;
+}
+.arrosage_complet2 {
+	float : left;
+	width : 210px;
+	height : 93px;
+	background : white;
+color: #000;
+margin-left : 70px;
+margin-bottom  : 10px;
+}
+.arrosage_complet3 {
+	width : 220px;
+	background : white;
+color: #000;
+margin-right : 90px;
+margin-bottom  : 10px;
+text-align : center;
+margin-left : 300px;
+margin-top : 10px;
+}
+.bouton_complet {
+	font-weight: 400;
+height: 55px;
+width : 60%;
+text-align: center;
+-webkit-border-radius: 4px;
+-webkit-transition: all 200ms ease-out;
+transition: all 200ms ease-out;
+text-overflow: ellipsis;
+color: white;
+	text-decoration : none;
+	width : 100%;
+background-color: rgba(0,74,90,0.9);
+cursor: pointer;
+font-size : 140%;	
+transition: all 200ms ease-out;
+display : block;
+text-decoration : none;
+}
+.bouton_complet_desactivation {
+	font-weight: 400;
+height: 55px;
+width : 60%;
+text-align: center;
+-webkit-border-radius: 4px;
+-webkit-transition: all 200ms ease-out;
+transition: all 200ms ease-out;
+text-overflow: ellipsis;
+color: white;
+	text-decoration : none;
+	width : 100%;
+background-color: rgba(0,74,90,0.9);
+cursor: pointer;
+font-size : 140%;	
+transition: all 200ms ease-out;
+display : block;
+text-decoration : none;
+}
+
+.bouton_complet:hover, .bouton_complet_desactivation:hover {
+	text-decoration : none;
+	background:#003545;
+}
+.bouton_complet_desactivation:focus, .bouton_complet:focus {
+	background:rgb(57,248,48);
+	color:rgb(70,70,70);
+}
+.lien_btn_complet:hover {
+	text-decoration : none;
+}
+.lien_btn_complet {
+	text-decoration : none;
+}
+.ulist {
+	margin-left : 50px;
+	margin-bottom : 10px;
+	margin-top : 10px;
+	color:rgb(0,74,90);
+}
+.nul {
+	margin-bottom : 10px;
+	margin-left : 20px;
+	margin-right : 20px;
+	color:rgb(0,74,90);
+}
+#chart1{height:220px;width:380px;}
+#chart2{height:220px;width:380px;}
+@media only screen and (min-width: 768px) and (max-width: 1200px)  {
+	
+	#chart1, #chart2{height:300px;width:480px;}
+	.ulist, .nul, .activation, .activation2, .actuellement, .lien_btn_complet;{display:none;}	
+	.activation{margin-top:800px;}
+	.titre_droite{color:rgba(0,74,90,0.7);background: white;}
+		.div_humidite{margin-left:0px;}
+        .div_temperature{margin-left:Opx}
+
+	.dessous_div_gauche{margin-left:60px;}
+	.dessous_div_droite{margin-right:70px;}
+	.arrosage_complet{margin-left:100px;}
+	.arrosage_complet3{margin-left:240px;}
+	.phrase_zoom{display:block;}
+}

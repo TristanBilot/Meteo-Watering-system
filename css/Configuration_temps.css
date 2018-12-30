@@ -1,0 +1,82 @@
+body {
+	font-family: sans-serif;
+	
+}
+.grand_titre {
+	font-size : 32px;
+	width : 90%;
+	margin-left : 5%;
+	border-bottom : 1px solid black;
+	padding-bottom : 10px;
+	color : black;
+	font-size: 170%;
+font-family: 'Linux Libertine',Georgia,Times,serif; 	
+}
+.select {
+	width : 100px;
+	text-align : center;
+	
+}
+.select:hover {
+	background: rgb(250,250,250);
+	cursor : pointer;
+}
+.div_select {
+	text-align : center;
+	padding-bottom : 20px;
+	padding-top : 20px;
+}
+.formulaire_temps {
+	border: 1px solid;
+	color:black;
+	height : 550px;
+	width : 390px;
+	margin-top : 6%;
+	text-align : center;
+	padding: 25px 35px 30px;
+	background: rgb(225,225,225);
+	display: block;
+	border-radius: 4px;
+	clear: both;
+	margin-left : 400px;
+}
+.btn_temps {
+    border: none;
+    padding: 0 20px;
+    font-size: 17px;
+    color: #FFF;
+    font-weight: 600;
+    line-height: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	color: #FFF;
+	background-color : #1AA1B4;
+	cursor:pointer;
+	margin-left : 26%;
+margin-top : 15px;
+}
+.btn_temps:hover {
+    background: #21cceb;
+}
+.titre_form {
+	border-bottom : 1px solid #1AA1B4;
+		font-size: 130%;
+	padding-bottom : 20px;
+	font-family: 'Linux Libertine',Georgia,Times,serif;
+}
+.phrase_temps {
+	margin-right : 30px;
+	margin-top : 20px;
+	margin-left : 60px;
+	color : black;
+	font-size : 110%;
+}
+
+

@@ -1,0 +1,21 @@
+.marge {
+	width : 1400px;
+	margin-top : 3%;
+	margin-left: auto;
+	margin-right: auto;
+    background-color : white;
+    padding-bottom : 20px;
+	box-shadow: -1px 5px 5px 1px rgb(220,220,220);
+	float : right;
+}
+.marge .divgauche {
+	width : 58%;
+	height : 1500px;
+	border-right : 1px solid;
+	float : left;
+}
+.marge .divdroite {
+	width: 42%;
+	float : right;
+	height: 1500px;
+}

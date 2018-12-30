@@ -1,0 +1,428 @@
+body {
+	
+	background-size : cover;
+	background: rgb(245,245,245);
+	font-family: 'Open Sans', sans-serif;
+	color: #555;
+}
+#header{ display: block;
+           height: 60px;
+           margin : 0;
+background: #ececec;
+border-bottom: 1px solid #c7c7c7;
+box-shadow: 0 4px 8px rgba(0,0,0,.15);
+		   color : black;
+		  
+		padding-bottom : 5px;}
+.formulaire {
+	float:left;
+	border: 1px solid black;
+	font:bold 11px Arial;
+	color:#555;
+	height : auto;
+	width : auto;
+	margin-top : 4%;
+	margin-left: 10%;
+	display: block;
+	border-radius: 4px;
+	clear: both;
+	background:white;
+	transition: all 200ms ease-out;
+	margin-bottom : 50px;
+	
+}
+.padding_form {
+	padding : 15px;
+}
+.footer_form {
+	background: rgba(0,74,90,0.7);
+	height : 20px;
+	margin-top : 85px;
+	border-top : 1px solid #003545;
+}
+.formulaire h2 {
+	font-weight: 700;
+    color: white;
+    font-size: 21px;
+	padding-top : 10px;
+	padding-left : 8px;
+	padding-bottom : 10px;
+	font-family: 'Open Sans', sans-serif;
+}	
+.formulaire .trait_password, .trait_password2 {
+	width : 340px;
+	height : 33px;
+	background: rgba(0,74,90,0.08);
+	border-radius : 10px;
+	font-size : 18px;
+}
+
+
+.header {
+	border:1px solid;
+	font-size : 140%;
+	color:#555;
+	height : 90px;
+	width : 100%;
+
+padding-left : 160px;
+	display: block;
+	border-radius: 4px;
+	margin : 0;
+	
+	margin-bottom: -1px;
+background-color: rgba(225,225,225,0.8);
+background-clip: padding-box;
+border-bottom: 1px solid rgba(0,0,0,0.075);
+box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+
+.header h1 {
+	font-size : 40px;
+	color : black;
+	width : 550px;
+	font-size : 200%;
+	margin-bottom : 10px;
+}
+
+
+.id, .mp {
+	width: 100%;
+    color : rgb(83,83,83);
+    font-weight: 600;
+	font-size : 18px;
+	font-family: 'Open Sans', sans-serif;
+	border : 0;
+	outline : 0;
+	margin-top : 10px;
+	margin-bottom : 10px;
+}
+.e {
+	color: #1AA1B4;
+}
+
+.btn {
+    border: none;
+    padding: 0 20px;
+    font-size: 19px;
+    color: #FFF;
+    font-weight: 600;
+    line-height: 40px;
+    height: 50px;
+    width : 160px;
+    display: block;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	color: #FFF;
+	background: rgba(0,74,90,0.6);
+	cursor:pointer;
+	margin-top : 30px;
+	margin-left : 5px;
+	FLOAT : right;
+}
+
+.btn:hover {
+    background: rgba(0,74,90,0.8);
+}
+
+.a1, .a2 
+{ 
+color: #1AA1B4;
+ font-size : 14px;
+ width :170px;
+margin-top : 5px
+} 
+
+
+.a1:hover, .a2:hover {
+	color : #21cceb;
+}
+
+.trait {
+	padding-top : 20px;
+	border-bottom : 1px solid #003545;; 
+	color : #1AA1B4;
+}
+
+.mot_de_passe_oublie {
+	float : left;
+	margin-top : 30px;
+}
+
+.phrase {
+	border-bottom : 1px solid #003545; 
+	padding-bottom : 20px;
+	padding-top : 5px;
+	padding-left : 8px;
+	font-size : 115%;
+}
+
+.trait_password, .trait_password2 {
+
+	text-align : center;
+	color : rgb(83,83,83);
+	border: 0;
+outline: 0;
+
+}
+.lien_btn:link {
+	text-decoration: none;
+	
+}
+
+
+.paragraphe {
+	float : left;
+	width : 570px;
+	color: #555;
+	border : 1px solid;
+	border-radius: 4px;
+	background :white;
+	transition: all 200ms ease-out;
+	margin-left:70px;
+	margin-top : 10%;
+}
+ .paragraphe p {
+	font-size : 16px;
+	padding-right : 5px;
+}
+
+.paragraphe a {
+ color :#1AA1B4;
+ font-size : 17px;
+} 
+
+.paragraphe a:hover {
+	color : #21cceb;
+}
+ .pourquoisecreeruncompte {
+  border-bottom : 1px solid #003545;
+  font-weight: 700;
+color: white;
+font-size: 24px;
+background: rgba(0,74,90,0.7);
+	padding-bottom : 10px;
+	padding-top : 10px;
+}
+.paragraphe .pourquoisecreeruncompte {
+	text-align : center;
+}
+.pasencoreinscrit {
+	border-top : 1px solid #003545;
+	padding-top : 30px;
+	background: rgba(0,74,90,0.7);
+}
+.pave_paragraphe {
+	padding : 17px;
+	
+}
+.header_form {
+	background: rgba(0,74,90,0.7);
+}
+.twitter {
+	height : 50px;
+	width : 50px; 
+	float : right;
+	position : absolute;
+	top : 22px;
+	right : 190px;
+}
+.facebook {
+	height : 50px;
+	width : 130px; 
+	float : right;
+	position : absolute;
+	top : 22px;
+	right : 120px;
+	line-height: inherit;
+}
+.twitter:hover, .facebook:hover {
+	 -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+.root {
+	color: #000;
+	font-size : 20px;
+}
+
+body	{ 
+	
+	background: rgb(220,220,220);
+}
+.logo {
+height: 117%;
+width : 21%;
+border : 0;
+}
+
+.trait_password_perso:focus, .trait_password2_perso:focus {
+    background: rgba(0,94,110,0.8);
+    transition: all 200ms ease-out;
+    color: white;
+    opacity: 0.7;
+}
+.trait_password_perso, .trait_password2_perso {
+    width: 340px;
+    height: 33px;
+    background: rgba(0,74,90,0.08);
+    border-radius: 10px;
+    font-size: 18px;
+    margin-bottom : 10px;
+     text-align: center;
+    color: #555;
+    border: 0;
+    outline: 0;
+}
+
+a.title_perso_merci{
+	color: #555;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+}
+.title_perso_merciPerdu {
+	margin-bottom : 10px;
+	text-align : center;
+	width: 100%;
+	color: rgb(83,83,83);
+	font-weight: 600;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	border: 0;
+	outline: 0;
+	margin-top: 5px;
+
+}
+.btn_perso {
+    border: none;
+    padding: 0 20px;
+    font-size: 19px;
+    color: #FFF;
+    font-weight: 600;
+    line-height: 40px;
+    height: 50px;
+    width: 160px;
+    display: block;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: rgba(0,74,90,0.6);
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.btn_persoPerdu {
+    border: none;
+    padding: 0 20px;
+    font-size: 19px;
+    color: #FFF;
+    font-weight: 600;
+    line-height: 40px;
+    height: 50px;
+    width: 160px;
+    display: block;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: rgba(0,74,90,0.6);
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+.btn_perso:hover, .btn_persoPerdu:hover {
+    background: rgba(0,74,90,0.8)
+}
+.title_perso_merci {
+	margin:10px;
+}
+
+a.lien_btn {
+	width : 100px;
+}
+.etoile {
+	font-size : 32px;
+	margin-left : 70px;
+}
+.chgmdpbtn:hover{
+background: rgb(0,74,90);
+}
+
+#logo_head{color: black;
+            font-family: 'Source Sans Pro',sans-serif;
+            font-weight: bold;
+            font-size: xx-large;
+            width: 240px;
+            float: left;
+			left : 43px;
+			top : 200px;
+			padding-top : 15px;
+			padding-right : 6px;
+			margin-left : 30px;		}
+			
+	.img1{height : 45px;width:45px;border-radius:100px;}
+	.img2{height : 45px;width : 45px;}
+	.img3{height : 45px;width : 45px;border-radius:100px;}
+	
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px) {
+  
+  #logo_head{font-size:50px;width:400px;}
+  .modal{width:200%;zoom:2;}
+   .formulaire h2{font-size:40px;text-align:center;}
+  .phrase{font-size:26px;}
+  .a1, .a2 {font-size:22px;width:300px;}
+  .btn{height:75px;width:230px;font-size:32px;margin-right:50px;float:none;}
+  .ensemble{float:none;}
+  .id, .mp{font-size:29px;}
+  .formulaire .trait_password, .formulaire .trait_password2{width:600px;height:50px;font-size:30px;}
+  #header{height:130px;}
+  #logo{font-size:52px;width:400px;margin-top:20px;}
+  .paragraphe .pourquoisecreeruncompte{font-size:40px;}
+  .paragraphe p {font-size:23px;}
+  
+   .formulaire{border: 1px solid black;
+    font: bold 11px Arial;
+    color: #555;
+    height: auto;
+    width: auto;
+    display: block;
+    border-radius: 4px;
+    background: white;
+    transition: all 200ms ease-out;
+    margin:120px;
+  text-align:center;
+    float:none;
+    margin-bottom:-20px;
+}
+  .paragraphe{
+    width: auto;
+    color: #555;
+    border: 1px solid;
+    border-radius: 4px;
+    background: white;
+    transition: all 200ms ease-out;
+    margin: none;
+    margin-left:0px;
+    margin-bottom:50px;
+}
+  .modal_content{width:70%;}
+  }
+
+  }

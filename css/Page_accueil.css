@@ -1,0 +1,329 @@
+.margeSimple p{
+	color : black;
+}
+.margeSimple a {
+	color: #1ba1b3;
+}
+.margeSimple a:hover {
+	color: #21cceb;
+}
+.photo_plante {
+	width : 400px;
+	height : 180px;
+	margin-top : 30px;
+}
+.grand_titre {
+	font-size : 28px;
+	background: rgb(235,235,235);
+	height : 60px;
+	box-shadow: -1px 3px 3px 0px rgb(150,150,150);
+	broder : 1px solid rgb(150,150,150);
+padding-bottom: 5px;
+
+}
+.accueil {
+	padding-left : 50px;
+	padding-top : 	13px;
+	font-family: 'Linux Libertine',Georgia,Times,serif;
+}
+.div_gauche {
+	float : left;
+	width: 25%;
+border: 1px solid #cef2e0;
+background: #f5faff;
+vertical-align: top;
+color: #000;
+padding-left : 10px;
+margin-left : 10px;
+margin-top : 15px;
+border : 1px solid #cedff2;
+}
+.marge a {
+	font-size : 20px;
+	color : #1ba1b3;
+}
+.marge a:hover {
+	color: #21cceb;
+}
+.div_droite {
+	float : right;
+		width: 72%;
+border: 1px solid #cef2e0;
+background: #f5faff;
+vertical-align: top;
+color: #000;
+padding-left : 25px;
+margin-left : 10px;
+margin-top : 15px;
+margin-right : 15px;
+border : 1px solid #cedff2;
+}
+.titre_gauche {
+	
+	margin-top: 12px;
+	margin-right : 10px;
+background: rgba(0,74,90,0.7);
+font-family: inherit;
+font-size: 120%;
+font-weight: bold;
+border: 1px solid #a3b0bf;
+text-align: left;
+color: white;
+padding: 0.2em 0.4em;
+margin-bottom:10px;
+}
+.titre_droite {
+	
+
+background: rgba(0,74,90,0.7);
+font-family: inherit;
+font-size: 160%;
+font-weight: bold;
+border: 1px solid #a3b0bf;
+color: white;
+height: 40px;
+margin-right : 10px;
+margin-left : 10px;
+}
+.petits_titres {
+	font-size : 140%;
+	border-bottom: 1px solid #a2a9b1;
+	margin-right : 15px;
+	padding-bottom : 5px;
+	margin-top : 10px;
+	font-family: 'Linux Libertine',Georgia,Times,serif;
+	color : #003040; 
+}
+.contactez_nous {
+	width: 240px;
+border: 1px solid rgb(230,230,230);
+background: #f5faff;
+color: #000;
+padding-left : 10px;
+margin-top : 15px;
+background: rgb(240,240,240);
+border-bottom: 1px solid #c7c7c7;
+margin-top : 20px;
+}
+.norme {
+	
+	width: 240px;
+border: 1px solid rgb(230,230,230);
+background: #f5faff;
+vertical-align: top;
+color: #000;
+padding-left : 10px;
+background: rgb(240,240,240);
+border-bottom: 1px solid #c7c7c7;
+margin-top : 20px;
+margin-bottom : 20px;
+}
+.petit_titre_droite {
+	padding-top : 10px;
+	font-size : 21px;
+	font-weight: bold;
+	border-bottom : 1px solid rgba(0,74,90,0.7);
+	width : 95%;
+	padding-left : 5px;
+	margin-left : 20px;
+}
+.paragraphe_droit {
+	padding-left : 15px;
+	padding-right : 15px;
+	color : rgb(0,74,90);
+	font-size : 100%;
+}
+.paragraphe_droit p {
+	margin-left:10px;
+	color:rgb(0,74,90);
+}
+.photo_bloc {
+	height : 300px;
+	width:700px;
+	margin-left : 90px;
+	margin-top : 20px;
+	margin-bottom : 20px;
+}
+.rohs {
+	height : 70px;
+	width:70px;
+	margin-right : 10px;
+	padding-top : 5px;
+}
+.CE {
+	height : 70px;
+	width : 75px;
+}
+.phrase_milieu {
+	font-size : 90%;
+	color : #1ba1b3;
+
+}
+.avertissement_photos {
+	font-size : 12px;
+}
+.humidite_bloc {
+	height : auto;
+	padding-bottom : 10px;
+	margin-top : 30px;
+	background : white;
+	margin-bottom : 20px;
+	border: 1px solid #cef2e0;
+	vertical-align: top;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	margin-left : 10px;
+}
+.temperature_bloc {
+	height : auto;
+	padding-bottom : 10px;
+	margin-top : 10px;
+
+	background : white;
+	margin-bottom : 20px;
+	border: 1px solid #cef2e0;
+vertical-align: top;
+-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	margin-left : 10px;
+
+}
+.arrosage_bloc {
+	height : auto;
+	padding-bottom : 10px;
+	margin-top : 10px;
+	margin-bottom : 20px;
+	margin-left : 10px;
+	border: 1px solid #cef2e0;
+background: white;
+vertical-align: top;
+-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.humidite_bloc:hover, .temperature_bloc:hover, .arrosage_bloc:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+.titre_humidite_bloc {
+	color : #1ba1b3;
+	font-size : 130%;
+	padding-left : 10px;
+	margin-bottom : 20px;
+	background: #cef2e0;
+	padding: 0.2em 0.4em;
+	border: 1px solid #a3bfb1;
+}
+.centrage {
+	
+	padding-right : 30px;
+}
+p {
+	font-size : 90%;
+}
+p.petits_titres{
+	padding-left : 30px;
+}
+p.paragraphe_gauche{
+	margin-top:5px;
+	margin-left:5px;
+}
+.img_goutte {
+	height : 80px;
+	width : 80px;
+	float : left;
+}
+.img_temp {
+	height : 90px;
+	width : 90px;
+	float : left;
+}
+.img_arrosage {
+	height : 90px;
+	width : 90px;
+	float : left;
+	margin-right : 10px;
+	margin-left : 15px;
+}
+.liste_fleurs {
+	
+	width : 400px;
+	height : auto;
+	padding-bottom : 10px;
+
+background: #faf5ff;
+color: #000;
+	margin-left : 530px;
+	margin-top : 30px;
+border: 1px solid #afa3bf;
+
+
+}
+.titre_liste_fleurs {
+padding: 0.2em 0.4em;
+background: #ddcef2;
+font-family: inherit;
+font-size : 130%;
+	padding-left : 10px;
+	margin-bottom : 20px;
+border: 1px solid #afa3bf;
+text-align: left;
+	color : rgb(100,2,90);
+}
+.img_fleurs {
+	height : 70%;
+	width : 70%;
+	margin-right : 10px;
+}
+.img_fleurs:active, .img_fleurs2:active, .calibrage_img:active {
+		-webkit-transform:scale(1.60); /* Safari et Chrome */
+-moz-transform:scale(1.60); /* Firefox */
+-ms-transform:scale(1.60); /* Internet Explorer 9 */
+-o-transform:scale(1.60); /* Opera */
+transform:scale(1.60);
+}
+.img_fleurs2 {
+	margin-right : 10px;
+}
+.center {
+		text-align :center;
+}
+.nom_fleur2 {
+	margin-bottom : 10px;
+	margin-top : 10px;
+	font-size : 115%;
+	color : rgb(100,2,90);
+	
+}
+.calibrage {
+	margin-right : 60px;
+		margin-bottom : 10px;
+	margin-top : 10px;
+	font-size : 115%;
+	color : rgb(100,2,90);
+}
+.calibrage_img {
+	width : 70%;
+	height : 60%;
+}
+.bouton_temps_reel {
+	float : right;
+	font-family: sans-serif;
+	padding-top : 20px;
+	padding-right : 20px;
+}
+.img_tondeuse {
+	height : 30%;
+	width : 30%;
+}
+.div_gauche a:visited {
+	color : rgb(159,11,141);
+}
+
+	
+}

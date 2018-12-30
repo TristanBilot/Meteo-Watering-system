@@ -1,0 +1,23 @@
+.under_grande_div_gauche {
+	width: 242px;
+border: 1px solid rgb(230,230,230);
+	background: rgb(240,240,240);
+padding-left : 10px;
+margin-top : 20px;
+padding-bottom : 15px;
+}
+.under_grande_div_gauche a {
+	color: #1ba1b3;
+}
+.under_grande_div_gauche a:hover {
+	color: #21cceb;
+}
+.body {
+	background: white;
+}
+.trait_middle_header {
+	width : 45%;
+	height : 50px;
+	float : left;
+	border-bottom : 3px solid rgb(220,220,220);
+}

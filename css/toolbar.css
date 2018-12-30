@@ -1,0 +1,102 @@
+
+/*CSS de la toolbar en haut ˆ droite */
+
+#toolbar, #toolbar ul /* Liste */     
+{
+        padding : 0; /* pas de marge intŽrieure */
+        margin : 0; /* ni extŽrieure */
+        list-style : none; /* on supprime le style par dŽfaut de la liste */
+        text-align : center; /* on centre le texte qui se trouve dans la liste */
+}
+
+#toolbar /* Ensemble du menu */
+{
+        font-weight : bold; /* on met le texte en gras */
+        font-family : Arial; /* on utilise Arial, c'est plus beau ^^ */
+        font-size : 14px; /* hauteur du texte : 12 pixels */
+}
+
+#toolbar a /* Contenu des listes */
+{
+        display : block; /* on change le type d'ŽlŽment, les liens deviennent des balises de type block */
+        transition: all 200ms ease-out;
+        background: rgba(0,74,90,0.7);
+        box-shadow: 
+		0 2px 3px 1px rgba(200, 200, 200, 0.6), 
+		0 0 5px 1px rgba(255, 255, 255, 0.5); /* couleur de fond */        
+        color : #fff; /* couleur du texte */
+        text-decoration : none; /* on supprime le style par dŽfaut des liens (la plupart du temps = soulignŽ) */
+        width : 160px; /* largeur */
+		height : 45px;
+		font-size : 120%;
+		vertical-align: middle;
+		padding-top : 20px;
+}
+.moncompte {
+	float:left;
+}
+#toolbar li /* Elements des listes */      
+{ 
+      
+        /* pour IE qui ne reconna”t pas "transparent" */
+        border-right : 1px solid #fff; /* on met une bordure blanche ˆ droite de chaque ŽlŽment */
+}
+
+/* IE ne reconnaissant pas le sŽlecteur ">" */
+html>body #toolbar li
+{
+        border-right: 1px solid transparent ; /* on met une bordure transparente ˆ droite de chaque ŽlŽment */
+}
+
+#toolbar li ul /* Sous-listes */
+{ 
+      
+        width: 144px; /* Largeur des sous-listes */
+        left: -999em; /* Hop, on envoie loin du champ de vision */
+}
+
+
+#toolbar li ul li /* ƒlŽments de sous-listes */
+{
+        /* pour IE qui ne reconna”t pas "transparent" (comme prŽcŽdemment) */
+        border-top : 1px solid #fff; /* on met une bordure blanche en haut de chaque ŽlŽment d'une sous liste */
+		
+}
+
+/* IE ne reconnaissant pas le sŽlecteur ">" */
+html>body #toolbar li ul li                
+{
+        border-top : 1px solid transparent; /* on met une bordure transparente en haut de chaque ŽlŽment */
+}
+
+#toolbar li ul ul 
+{
+        margin    : -22px 0 0 144px ; /* On dŽcale les sous-sous-listes pour qu'elles ne soient pas au dessus des sous-listes */ 
+        /* pour IE qui ne reconna”t pas "transparent" (comme prŽcŽdemment) */
+        border-left     : 1px solid #fff ; /* Petite bordure ˆ gauche pour ne pas coller ... */      
+}
+
+/* IE ne reconnaissant pas le sŽlecteur ">" ... je me rŽpte ;-) */
+html>body #toolbar li ul ul                
+{
+        border-left     : 1px solid transparent ; /* on met une bordure transparente sur la gauche de chaque ŽlŽment */
+}
+
+#toolbar a:hover /* Lorsque la souris passe sur un des liens */    
+{
+     
+        background: #21cceb; /* ... et au contraire, le fond en blanc */
+}
+
+#toolbar li:hover ul ul, #toolbar li.sfhover ul ul /* Sous-sous-listes lorsque la souris passe sur un ŽlŽment de liste */
+{
+        left: -999em; /* On expŽdie les sous-sous-listes hors du champ de vision */
+}
+
+#toolbar li:hover ul, #toolbar li li:hover ul, #toolbar li.sfhover ul, #toolbar li li.sfhover ul  /* Sous-listes lorsque la souris passe sur un ŽlŽment de liste ET sous-sous-lites lorsque la souris passe sur un ŽlŽment de sous-liste */
+{
+        left: auto; /* Repositionnement normal */
+        min-height: 0; /* Corrige un bug sous IE */
+}
+
+

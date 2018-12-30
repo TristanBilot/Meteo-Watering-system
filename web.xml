@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>WebProject</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>CapteurServlet</servlet-name>
+    <servlet-class>web.project.servlet.CapteurServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AuthentificationServlet</servlet-name>
+    <servlet-class>web.project.servlet.AuthentificationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>web.project.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CapteurServlet</servlet-name>
+    <url-pattern>/Capteur</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuthentificationServlet</servlet-name>
+    <url-pattern>/Authentification</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+   <filter>
+       <filter-name>SecurityFilter</filter-name>
+       <filter-class>web.project.filter.SecurityFilter</filter-class>
+    </filter>
+    <!-- déclaration des URL interceptées par ce filtre -->
+    <filter-mapping>
+       <filter-name>SecurityFilter</filter-name>
+       <!-- on aurait pu aussi définir une servlet filtrée, par un élément servlet-name -->
+       <url-pattern>/*</url-pattern>
+    </filter-mapping>
+  <listener>
+    <listener-class>
+            web.project.servlet.MyAppServletContextListener
+        </listener-class>
+  </listener>
+</web-app>
